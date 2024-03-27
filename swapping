@@ -1,0 +1,46 @@
+#swapping program
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+a,b=b,a 
+print(a)
+print(b)
+
+#swapping program
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+a=a+b 
+b=a-b
+a=a-b
+print(a)
+print(b)
+
+#swapping program
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+a=a*b 
+b=a/b
+a=a/b
+print(a)
+print(b)
+
+#swapping program
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+a=a^b 
+b=a^b
+a=a^b
+print(a)
+print(b)
+
+
+#swapping program
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+c=int(input("enter c number"))
+a=a+b+c
+b=a-(b+c)
+c=a-(b+c)
+a=a-(b+c)
+print(a)
+print(b)
+print(c)
