@@ -1,0 +1,13 @@
+#lexciographical order
+num='A'
+for i in range(0,4):
+    for j in range(0,i+1):
+        print(num,end='')
+        num=chr(ord(num)+1)
+        
+    print()
+o/p=
+A
+B C
+D E F
+G H I J
